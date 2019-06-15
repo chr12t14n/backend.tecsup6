@@ -1,0 +1,18 @@
+Algoritmo CambioDeVariable
+	definir num1 Como Entero
+	definir num2 Como Entero
+	definir aux como entero
+	
+	Mostrar "ingresar valor para num1"
+	Leer num1
+	Mostrar "ingresar valor para num2"
+	Leer num2
+	
+	aux <- num1
+	num1 <- num2
+	num2 <- aux
+	
+	Mostrar "Valor de num1 es: ", num1
+	Mostrar "Valor de num2 es: ", num2
+	
+FinAlgoritmo
