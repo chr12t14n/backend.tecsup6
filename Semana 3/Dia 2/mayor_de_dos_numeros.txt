@@ -1,0 +1,22 @@
+Algoritmo MayorDeDosNumeros
+	
+	Definir num1 como entero
+	Definir num2 como entero
+	
+	Mostrar "ingresar entero"
+	Leer num1
+	Mostrar "ingresar entero"
+	Leer num2
+	
+	si num1 > num2 entonces
+		Mostrar "el numero mayor es: ", num1
+	SiNo
+		si num1 = num2
+			Mostrar "Los numeros son iguales"
+		SiNo
+			Mostrar "el numero mayor es: ", num2
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,21 @@
+Algoritmo Reloj_HoraFutura
+	
+	Definir horaActual como entero
+	Definir horasPasadas como entero
+	Definir horaFutura como entero
+	
+	Mostrar "ingresar hora actual"
+	Leer horaActual
+	Mostrar "ingresar horas pasadas"
+	Leer horasPasadas
+	
+	horaFutura <- horaActual + horasPasadas
+	
+	horaFutura <- horaFutura mod 12 
+	si horaFutura = 0 entonces
+		horaFutura <- 12
+	FinSi
+	
+	Mostrar "La hora futura es: " , horaFutura
+	
+FinAlgoritmo

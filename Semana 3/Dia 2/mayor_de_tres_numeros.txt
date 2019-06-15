@@ -1,0 +1,27 @@
+Algoritmo MayorDeDosNumeros
+	
+	Definir num1 como entero
+	Definir num2 como entero
+	Definir num3 como entero
+	Definir may como entero
+	
+	Mostrar "ingresar entero"
+	Leer num1
+	Mostrar "ingresar entero"
+	Leer num2
+	Mostrar "ingresar entero"
+	Leer num3
+	
+	si (num1 > num2) && (num1>num3) entonces
+		may <- num1
+	SiNo
+		si num2 > num3
+			may <- num2
+		sino 
+			may <- num3
+		FinSi
+	FinSi
+	
+	Mostrar "El mayor es: " , may
+	
+FinAlgoritmo
