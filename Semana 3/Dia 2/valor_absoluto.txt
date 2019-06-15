@@ -1,0 +1,9 @@
+Algoritmo ValorAbosoluto
+	Definir n como entero
+	Mostrar "Ingresar un numero positivo o negativo"
+	Leer n
+	si n < 0 entonces
+		n <- n * (-1)
+	FinSi
+	Mostrar "El valor absoluto es: " , n
+FinAlgoritmo

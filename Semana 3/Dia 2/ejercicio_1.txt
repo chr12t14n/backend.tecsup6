@@ -1,0 +1,31 @@
+Algoritmo MiPrimerPrograma
+	Definir soles Como Real  // DECLARACIÓN DE VARIABLE
+	Definir euros Como Real
+	Definir opc Como Entero
+	
+	Mostrar "******** CONVERSOR *********"
+	Mostrar "1 Convertir de euros a soles"
+	Mostrar "2 Convertir de soles a euros"
+	Mostrar "****************************"
+	Leer opc
+	si opc = 1 entonces
+		Mostrar "Ingresar monto en euros"
+		Leer euros
+		soles <- euros * 3.76
+		Mostrar "El monto en soles es:  S/" , soles
+	FinSi
+	si opc = 2 entonces
+		Mostrar "Ingresar monto en soles"
+		Leer soles
+		euros <- soles / 3.76
+		Mostrar "El monto en euros es: €" , euros
+	FinSi
+	
+	
+	
+	
+	Mostrar "Convertir de euros a soles"
+	
+	
+	
+FinAlgoritmo
